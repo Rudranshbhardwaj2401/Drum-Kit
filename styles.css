@@ -6,15 +6,16 @@ body {
 #myTitle {
   font-size: 5rem;
   padding-top: 20px;
-  color: #DBEDF3;
+  color: #FF5580;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 5px 3px #201e1f;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: #000000;
   font-family: sans-serif;
+  padding-bottom: 20px;
 }
 
 .w {
@@ -83,9 +84,9 @@ background-image: url("./images/tom4.png");
 
 .gradient-background {
   background: linear-gradient(-50deg,
-    #FF9D23,  #85193C,
+    #FF9D23,  #94FFD8,
 
-      #1B004C);
+      #FF7EE2);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite;
 }
@@ -107,7 +108,7 @@ background-image: url("./images/tom4.png");
 
 @media(max-width:767px) {
 #myTitle {
-    font-size:rem;
+    font-size:4rem;
 
   }
  .drum {
